@@ -1,9 +1,8 @@
+<img src="https://github.com/user-attachments/assets/a3468271-121e-4e4f-9ed2-994436490866" width="250" style="display: block; margin: auto;">
 
 # 🚗 Car Maintenance App
 
 **Car Maintenance App** is a mobile application developed using **Java** and **Android Studio**. It utilizes **MySQL** as the backend database and **Volley** for network operations.
-
-<img src="https://github.com/user-attachments/assets/a3468271-121e-4e4f-9ed2-994436490866" width="250" style="display: block; margin: auto;">
 
 ---
 
