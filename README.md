@@ -14,25 +14,25 @@
 
 ## 📱 Screenshots
 ### 🔹 Login Screen
-![Image](https://github.com/user-attachments/assets/60a85a6c-5322-41d2-9e57-f5166e9e9229){width=200}
+![Image](https://github.com/user-attachments/assets/60a85a6c-5322-41d2-9e57-f5166e9e9229){width=150}
 
 ### 🔹 Main Dashboard
-![Image](https://github.com/user-attachments/assets/dd1aa248-86b2-4d7a-b799-c63efcefe046){width=200}
+![Image](https://github.com/user-attachments/assets/dd1aa248-86b2-4d7a-b799-c63efcefe046){width=150}
 
 ### 🔹 Manage Cars
-![Image](https://github.com/user-attachments/assets/0a09e42c-4865-4d39-8566-ce36422c534f){width=200}
+![Image](https://github.com/user-attachments/assets/0a09e42c-4865-4d39-8566-ce36422c534f){width=150}
 
 ### 🔹 Add Car
-![Image](https://github.com/user-attachments/assets/c4308751-fb48-4f39-8a61-0bc0fcff74cb){width=200}
+![Image](https://github.com/user-attachments/assets/c4308751-fb48-4f39-8a61-0bc0fcff74cb){width=150}
 
 ### 🔹 Book Repair
-![Image](https://github.com/user-attachments/assets/587049e6-0a7c-4e7d-8a51-44d5a727e237){width=200}
+![Image](https://github.com/user-attachments/assets/587049e6-0a7c-4e7d-8a51-44d5a727e237){width=150}
 
 ### 🔹 Feedback Form
-![Image](https://github.com/user-attachments/assets/5aabde25-c79a-405f-86d3-ea030ee9db50){width=200}
+![Image](https://github.com/user-attachments/assets/5aabde25-c79a-405f-86d3-ea030ee9db50){width=150}
 
 ### 🔹 Profile Management
-![Image](https://github.com/user-attachments/assets/ad6048b6-2f10-4599-ab66-f6358a13c371){width=200}
+![Image](https://github.com/user-attachments/assets/ad6048b6-2f10-4599-ab66-f6358a13c371){width=150}
 
 ---
 
