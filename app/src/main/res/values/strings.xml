@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="app_name">Car_Main</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+
+
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Email">Email</string>
+    <string name="Register">SignUp</string>
+    <string name="Logo">Logo</string>
+    <string name="FirstName">FirstName</string>
+    <string name="LastName">LastName</string>
+    <string name="ConfirmEmailAddress">Confirm Email Address</string>
+    <string name="SignUp">SignUp</string>
+    <string name="MobileNumber">MobileNumber</string>
+    <string name="registrationPage">SignUp</string>
+    <string name="ForgetPassword">Forget Password?</string>
+    <string name="login_page_title">Login</string>
+    <string name="EmailEnter">Enter your email to reset your password</string>
+    <string name="ResetPass">Reset Password</string>
+    <string name="code">Verify Code</string>
+    <string name="EnterCode">Enter the reset code sent to your email</string>
+    <string name="ResetCode">Enter Code</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="Username1">User Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Change password</string>
+    <string name="confirm_changes">Confirm Changes</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="logout">LogOut</string>
+    <string name="enter_your_current_password">Enter your current Password</string>
+    <string name="change_your_password">Change Your Password</string>
+    <string name="enter_the_new_password">Enter the New Password</string>
+    <string name="re_enter_your_new_password">Re Enter your new Password</string>
+    <string name="welcome_to_customer_support">Welcome to Customer Support</string>
+    <string name="tech_support">Tech Support</string>
+    <string name="your_name">Your name:</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="enter_you_name">Enter you name</string>
+    <string name="enter_you_email">Enter you Email</string>
+    <string name="problem_suggestion_description">Problem/suggestion description:</string>
+    <string name="enter_you_suggestions_problem">Enter you Suggestions/problem</string>
+    <string name="send">Send</string>
+    <string name="or_you_can_chat_now">Or you can chat now</string>
+    <string name="enter_your_phone_number">Enter your Phone Number</string>
+
+</resources>

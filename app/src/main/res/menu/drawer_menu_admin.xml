@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="ProfileManager"
+        android:id="@+id/ProfileManager"
+        android:icon="@drawable/ic_services"
+        android:iconTint="@color/navigation_icon_color"
+        android:textColor="@color/navigation_text_color"/>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File: res/layout/activity_habeeb.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btAuto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Auto Parts Repair"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#F9CD6A"
+        android:textColor="@color/black"
+         />
+
+    <Button
+        android:id="@+id/btMaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Periodic Maintenance"
+        android:backgroundTint="#F9CD6A"
+        android:textColor="@color/black" />
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8EFF7">
+
+    <!-- Toolbar wrapped in CardView for rounded corners -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toolbar_gradient"
+            android:padding="16dp"
+            app:title="Add Car Details"
+            app:titleTextAppearance="@style/ToolbarTitle"
+            app:titleTextColor="#FFFFFF" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Main Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="17dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+
+            <!-- Car Name -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Car Name"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#3E4A59"
+                android:fontFamily="sans-serif"
+                android:layout_marginBottom="25dp" />
+
+            <EditText
+                android:id="@+id/carNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter car name"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/edit_text_background"
+                android:padding="12dp"
+                android:layout_marginBottom="25dp" />
+
+            <!-- Car Model -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Car Model"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#3E4A59"
+                android:fontFamily="sans-serif"
+                android:layout_marginBottom="25dp" />
+
+            <EditText
+                android:id="@+id/carModelEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter car model"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/edit_text_background"
+                android:padding="12dp"
+                android:layout_marginBottom="25dp" />
+
+            <!-- License Plate -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="License Plate"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#3E4A59"
+                android:fontFamily="sans-serif"
+                android:layout_marginBottom="25dp" />
+
+            <EditText
+                android:id="@+id/licensePlateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter license plate"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/edit_text_background"
+                android:padding="12dp"
+                android:layout_marginBottom="25dp" />
+
+            <!-- Car Image -->
+            <ImageView
+                android:id="@+id/carImageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/carr"
+                android:layout_gravity="center" />
+
+            <!-- Buttons -->
+            <Button
+                android:id="@+id/selectImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Image"
+                android:backgroundTint="#F9CD6A"
+                android:fontFamily="sans-serif-medium"
+                android:padding="12dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Car"
+                android:backgroundTint="#F9CD6A"
+                android:fontFamily="sans-serif-medium"
+                android:padding="12dp"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:layout_marginTop="24dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

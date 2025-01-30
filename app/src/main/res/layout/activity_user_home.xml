@@ -1,0 +1,122 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8EFF7"
+    tools:context=".UserHomeActivity">
+
+    <!-- Main content -->
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Toolbar -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:elevation="4dp"
+            android:title="Car Maintinancy App"
+            android:titleTextColor="#FFFFFF"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <!-- App Logo -->
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:contentDescription="App Logo"
+            android:scaleType="centerInside"
+            android:src="@drawable/logoo2"
+            android:layout_below="@id/toolbar4"
+            android:layout_centerHorizontal="true" />
+
+        <!-- CardView for Buttons -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="18dp"
+            android:layout_below="@id/logo1"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="#F9CD6A"
+
+                    android:textColor="@color/black"
+                    android:padding="20dp"
+                    android:text="Welcome to our app"
+
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <!-- Buttons -->
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="#F9CD6A"
+                    android:textColor="@color/black"
+                    android:text="Show and Manage Cars"
+
+                    android:textSize="18sp" />
+
+
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="#F9CD6A"
+                    android:textColor="@color/black"
+                    android:text="Service Management"
+
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="#F9CD6A"
+                    android:textColor="@color/black"
+                    android:text="Add Car"
+
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <!-- Navigation View -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#4840A3"
+        app:backgroundTint="@color/navigation_background"
+        app:itemIconTint="@color/navigation_icon_color"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/drawer_menu_user" />
+</androidx.drawerlayout.widget.DrawerLayout>

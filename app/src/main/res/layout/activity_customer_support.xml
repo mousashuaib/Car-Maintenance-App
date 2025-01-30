@@ -1,0 +1,121 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00C896"
+    android:padding="16dp">
+
+    <!-- CardView containing the feedback form -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        android:padding="16dp"
+        android:backgroundTint="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feedback Form"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#0A8754"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Name Input -->
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                android:padding="12dp"
+                android:background="@drawable/rounded2_background"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPersonName" />
+
+
+            <!-- Email Input -->
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Email"
+                android:padding="12dp"
+                android:background="@drawable/rounded2_background"
+                android:layout_marginBottom="10dp"
+                android:inputType="textEmailAddress" />
+            <EditText
+                android:id="@+id/phoneEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Phone Number"
+                android:padding="12dp"
+                android:background="@drawable/rounded2_background"
+                android:layout_marginBottom="10dp"
+                android:inputType="phone" />
+
+
+            <!-- Subject Input -->
+            <EditText
+                android:id="@+id/subjectEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Subject"
+                android:padding="12dp"
+                android:background="@drawable/rounded2_background"
+                android:layout_marginBottom="10dp"
+                android:inputType="text" />
+
+            <!-- Message Input -->
+            <EditText
+                android:id="@+id/messageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:hint="Enter Message"
+                android:padding="12dp"
+                android:background="@drawable/rounded2_background"
+                android:layout_marginBottom="20dp"
+                android:gravity="top|start"
+                android:inputType="textMultiLine" />
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:backgroundTint="#F9CD6A"
+                android:textColor="@color/black"
+                android:text="Submit"
+                android:textStyle="bold" />
+
+            <!-- Chat Now Link -->
+            <TextView
+                android:id="@+id/chatLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Or You Can Chat Now"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#4840A3"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
